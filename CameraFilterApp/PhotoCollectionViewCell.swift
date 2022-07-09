@@ -6,7 +6,10 @@
 //
 
 import UIKit
+import Photos
 
 class PhotoCollectionViewCell: UICollectionViewCell {
+    
+    @IBOutlet var photo: UIImageView!
     
 }
